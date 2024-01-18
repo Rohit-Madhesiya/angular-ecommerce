@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/angular_ecommerce
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    database: mysql
+    properties:
+      hibernate.dailect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+stripe:
+  secret-key: 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
